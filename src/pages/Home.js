@@ -8,11 +8,12 @@ const Home = () => {
                     <ul className="content-list">
                         <li className="content-list__item">
                             <h2 className="title-2">Frontend</h2>
-                            <p>HTML5, CSS3, SCSS, SASS, JavaScript, React JS, JQuery, Bootstrap, БЭМ</p>
+                            <p>HTML5, CSS3, SCSS, SASS
+                                <br /> JavaScript, JQuery, Bootstrap, BEM, React</p>
                         </li>
                         <li className="content-list__item">
                             <h2 className="title-2">Others</h2>
-                            <p>Git, GitHub, Figma</p>
+                            <p>Git, GitHub, Figma, Gulp</p>
                         </li>
                     </ul>
                 </div>

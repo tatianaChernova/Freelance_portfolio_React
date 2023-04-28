@@ -16,6 +16,12 @@ import project05Big from "./../img/projects/05-big.jpg";
 import project06 from "./../img/projects/06.jpg";
 import project06Big from "./../img/projects/06-big.jpg";
 
+import project07 from "./../img/projects/07.jpg";
+import project07Big from "./../img/projects/07-big.jpg";
+
+import project08 from "./../img/projects/08.jpg";
+import project08Big from "./../img/projects/08-big.jpg";
+
 const projects = [
     {
         title: 'Watch project',
@@ -35,11 +41,11 @@ const projects = [
     },
     {
         title: 'Personal portfolio project',
-        subtitle: 'Portfolio multipage project',
-        skills: 'HTML, CSS, adaptive design',
+        subtitle: 'React project',
+        skills: 'React, HTML, CSS, adaptive design',
         img: project03,
         imgBig: project03Big,
-        gitHubLink: 'https://github.com/tatianaChernova/Personal-portfolio',
+        gitHubLink: 'https://github.com/tatianaChernova/personal_portfolio_react',
     },
     {
         title: 'Konstruct project',
@@ -64,6 +70,22 @@ const projects = [
         img: project06,
         imgBig: project06Big,
         gitHubLink: 'https://github.com/tatianaChernova/Desire_furniture',
+    },
+    {
+        title: 'Auto express project',
+        subtitle: 'Landing page',
+        skills: 'HTML, SCSS, Wordpress',
+        img: project07,
+        imgBig: project07Big,
+        gitHubLink: 'https://github.com/tatianaChernova/Auto_express',
+    },
+    {
+        title: 'Adventure project',
+        subtitle: 'React project',
+        skills: 'React, HTML, CSS, adaptive design',
+        img: project08,
+        imgBig: project08Big,
+        gitHubLink: 'https://github.com/tatianaChernova/adventure-react',
     }
 ];
 
