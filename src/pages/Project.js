@@ -1,10 +1,11 @@
-import {useParams} from "react-router-dom";
+import { useParams } from "react-router-dom";
 import BtnGitHub from "../components/btnGitHub/BtnGitHub";
-import {projects} from "./../helpers/projectsList";
+import BtnDirectLink from "../components/btnDirectLink/BtnDirectLink";
+import { projects } from "./../helpers/projectsList";
 
 
 const Project = () => {
-    const {id} = useParams();
+    const { id } = useParams();
     const project = projects[id];
     return (
         <main className="section">
@@ -16,13 +17,14 @@ const Project = () => {
                         <p>{project.subtitle}</p>
                         <p>Skills: {project.skills}</p>
                     </div>
+                    {project.directLink && <BtnDirectLink link={project.directLink} />}
                     {project.gitHubLink && <BtnGitHub link={project.gitHubLink} />}
-                    
-                </div>        
+
+                </div>
             </div>
-        </main> 
+        </main>
 
     );
 }
- 
+
 export default Project;

@@ -22,6 +22,9 @@ import project07Big from "./../img/projects/07-big.jpg";
 import project08 from "./../img/projects/08.jpg";
 import project08Big from "./../img/projects/08-big.jpg";
 
+import project09 from "./../img/projects/09.jpg";
+import project09Big from "./../img/projects/09-big.jpg";
+
 const projects = [
     {
         title: 'Watch project',
@@ -29,6 +32,7 @@ const projects = [
         skills: 'HTML, CSS, adaptive design',
         img: project01,
         imgBig: project01Big,
+        directLink: 'https://tatianachernova.github.io/Watch/',
         gitHubLink: 'https://github.com/tatianaChernova/watch',
     },
     {
@@ -37,14 +41,16 @@ const projects = [
         skills: 'HTML, CSS, JQuery, adaptive design',
         img: project02,
         imgBig: project02Big,
+        directLink: 'https://tatianachernova.github.io/Xiaomi_bike/',
         gitHubLink: 'https://github.com/tatianaChernova/Xiaomi_bike',
     },
     {
         title: 'Personal portfolio project',
         subtitle: 'React project',
-        skills: 'React, HTML, CSS, adaptive design',
+        skills: 'React JS, HTML, CSS, adaptive design',
         img: project03,
         imgBig: project03Big,
+        directLink: 'https://tatianachernova.github.io/personal_portfolio_react/',
         gitHubLink: 'https://github.com/tatianaChernova/personal_portfolio_react',
     },
     {
@@ -53,6 +59,7 @@ const projects = [
         skills: 'HTML, CSS',
         img: project04,
         imgBig: project04Big,
+        directLink: 'https://tatianachernova.github.io/Construct/',
         gitHubLink: 'https://github.com/tatianaChernova/Construct',
     },
     {
@@ -61,6 +68,7 @@ const projects = [
         skills: 'HTML, SCSS',
         img: project05,
         imgBig: project05Big,
+        directLink: 'https://tatianachernova.github.io/Alivio_LandingPage/',
         gitHubLink: 'https://github.com/tatianaChernova/Alivio_LandingPage',
     },
     {
@@ -69,6 +77,7 @@ const projects = [
         skills: 'HTML, SCSS, Gulp, JQuery, Slick',
         img: project06,
         imgBig: project06Big,
+        directLink: 'https://tatianachernova.github.io/Desire_furniture/',
         gitHubLink: 'https://github.com/tatianaChernova/Desire_furniture',
     },
     {
@@ -77,15 +86,27 @@ const projects = [
         skills: 'HTML, SCSS, Wordpress',
         img: project07,
         imgBig: project07Big,
+        directLink: 'https://tatianachernova.github.io/Auto_express/',
         gitHubLink: 'https://github.com/tatianaChernova/Auto_express',
     },
     {
         title: 'Adventure project',
         subtitle: 'React project',
-        skills: 'React, HTML, CSS, adaptive design',
+        skills: 'React JS, HTML, CSS, adaptive design',
         img: project08,
         imgBig: project08Big,
+        directLink: 'https://tatianachernova.github.io/adventure-react/',
         gitHubLink: 'https://github.com/tatianaChernova/adventure-react',
+    }
+    ,
+    {
+        title: 'Sneakers project',
+        subtitle: 'React project',
+        skills: 'React JS, HTML, SCSS, Mock API, JSON Server, adaptive design',
+        img: project09,
+        imgBig: project09Big,
+        directLink: 'https://tatianachernova.github.io/sneakers-react/',
+        gitHubLink: 'https://github.com/tatianaChernova/sneakers-react',
     }
 ];
 
