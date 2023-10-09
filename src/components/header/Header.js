@@ -1,7 +1,7 @@
 import "./styles.css";
 
 const Header = () => {
-    return ( 
+    return (
         <header className="header">
             <div className="header__wrapper">
                 <h1 className="header__title">
@@ -14,7 +14,7 @@ const Header = () => {
                 <a href="https://drive.google.com/file/d/1UxuD3zmKoQN_8szJajd5VEF-DFyFc3TI/view?usp=drive_link" className="btn">Download CV</a>
             </div>
         </header>
-     );
+    );
 }
- 
+
 export default Header;
