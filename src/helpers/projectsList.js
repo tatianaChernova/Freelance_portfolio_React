@@ -46,7 +46,7 @@ const projects = [
     // },
     {
         title: 'Xiaomi bike project',
-        subtitle: 'Landing page',
+        subtitle: 'HTML, CSS project',
         skills: 'HTML, CSS, JQuery, adaptive design',
         img: project02,
         imgFull: project02Full,
@@ -73,12 +73,12 @@ const projects = [
     },
     {
         title: 'Alivio project',
-        subtitle: 'Landing page',
+        subtitle: 'HTML, CSS project',
         skills: 'HTML, SCSS',
         img: project05,
         imgFull: project05Full,
-        directLink: 'https://tatianachernova.github.io/Alivio_LandingPage/',
-        gitHubLink: 'https://github.com/tatianaChernova/Alivio_LandingPage',
+        directLink: 'https://tatianachernova.github.io/alivio/',
+        gitHubLink: 'https://github.com/tatianaChernova/alivio',
     },
     {
         title: 'Desire furniture project',
@@ -118,8 +118,8 @@ const projects = [
     },
     {
         title: 'Oculus project',
-        subtitle: 'Web project',
-        skills: 'HTML, CSS, CSS Grid, Java Script,  Ajax, PHP, CSS animation, adaptive design',
+        subtitle: 'HTML, CSS project',
+        skills: 'HTML, CSS, CSS Grid, Java Script, Ajax, PHP, CSS animation, adaptive design',
         img: project10,
         imgFull: project10Full,
         directLink: 'https://tatianachernova.github.io/oculus/',
@@ -127,7 +127,7 @@ const projects = [
     },
     {
         title: 'Tzeezotje project',
-        subtitle: 'Web project',
+        subtitle: 'HTML, CSS project',
         skills: 'HTML, SCSS, Java Script, JQuery, Swiper.js, Ajax, PHP, CSS animation, adaptive design',
         img: project11,
         imgFull: project11Full,
