@@ -13,12 +13,14 @@ const Home = () => {
                         </li>
                         <li className="content-list__item">
                             <h2 className="title-2">Frontend skills</h2>
-                            <p>HTML5, CSS3, SCSS, SASS
-                                <br /> JavaScript, JQuery, Bootstrap, BEM, Gulp, React JS </p>
+                            <p>HTML5, CSS3, SCSS, SASS, Less
+                                <br />Pixel Perfect, BEM, Bootstrap, Gulp
+                                <br />JavaScript, JQuery, Ajax, React JS
+                            </p>
                         </li>
                         <li className="content-list__item">
                             <h2 className="title-2">Other skills</h2>
-                            <p>Git, GitHub, Figma, Rest API</p>
+                            <p>Git, GitHub, Figma</p>
                         </li>
                     </ul>
                 </div>
