@@ -1,0 +1,18 @@
+/* Lang btn */
+
+.lang-btn {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+	order: 9;
+	background-color: #fff;
+	border-radius: 50px;
+}
+
+.lang-btn__icon {
+	width: 19px;
+	height: 16px;
+	position: relative;
+	z-index: 9;
+}
